@@ -1,0 +1,40 @@
+package com.cred;
+
+public class Credentials {
+	static int empid;
+	static String email;
+	static int pid;
+	static String name;
+	
+	public static String getName() {
+		return name;
+	}
+	public static void setName(String name) {
+		Credentials.name = name;
+	}
+	static int tid;
+	public static int getTid() {
+		return tid;
+	}
+	public static void setTid(int tid) {
+		Credentials.tid = tid;
+	}
+	public static int getPid() {
+		return pid;
+	}
+	public static void setPid(int pid) {
+		Credentials.pid = pid;
+	}
+	public static int getEmpid() {
+		return empid;
+	}
+	public static void setEmpid(int empid) {
+		Credentials.empid = empid;
+	}
+	public static String getEmail() {
+		return email;
+	}
+	public static void setEmail(String email) {
+		Credentials.email = email;
+	}
+}
